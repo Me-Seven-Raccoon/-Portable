@@ -304,13 +304,11 @@ btn4.addEventListener('click', function (e) {
             const contElement = document.createElement('div');
             contElement.classList.add('contElement');
             const text = document.createElement('H1');
-            text.textContent = `Коэффициент
-        корреляции Фехнера 
-        Коэффициент
-        корреляции
-        Кендалла (Тау
-        Кендалла)`;
+            text.textContent = `Коэффициент корреляции Фехнера`
+            const text2 = document.createElement('H1');
+            text2.textContent = `Коэффициент корреляции Кендалла (Тау Кендалла!±)`;
             contElement.appendChild(text)
+            contElement.appendChild(text2)
             block.appendChild(contElement)
         }
     }

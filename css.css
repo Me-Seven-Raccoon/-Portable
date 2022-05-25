@@ -1,18 +1,35 @@
+.button-menu:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
 .button-menu {
     text-decoration: none;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: cornflowerblue;
-    color: white;
-    padding: 6px;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
 }
 .question-counter{
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 .text {
     display: flex;
     justify-content: center;
 }
+
 
 .question-button {
     display: flex;
@@ -36,13 +53,157 @@
 .blocks {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-
 
 .open-quest{
     display: block;
 }
 .close-quest{
     display: none;
+}
+.pBoss {
+    font-size: 30px;
+}
+.pageGlav {
+    text-align: center;
+}
+
+
+
+.rad-label {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.rad-label:hover,
+.rad-label:focus-within {
+    background: hsla(0, 0%, 80%, .14);
+}
+
+.rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.rad-design {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+
+    background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+    position: relative;
+}
+
+.rad-design::before {
+    content: '';
+
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+
+    background: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.rad-input:checked+.rad-design::before {
+    transform: scale(0);
+}
+
+.rad-text {
+    color: hsl(0, 0%, 60%);
+    margin-left: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+
+    transition: .3s;
+}
+
+.rad-input:checked~.rad-text {
+    color: hsl(0, 0%, 40%);
+}
+
+
+
+.btnStyle{
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 14px;
+    width: 100px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 10px 20px 10px 0;
+    border: 2px solid #c9b7f7;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.btnStyle:hover{
+    color: white;
+}
+.btnStyle::before{
+    background: #2EE59D;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btnStyleNon::before{
+    background: #df4f5f;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btnStyle1::before{
+    width: 0%;
+    height: 100%;
+}
+
+.btnStyle1:hover::before{
+    width: 100%;
+}
+
+.imgHome {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.homeLink{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: crimson;
+}
+.blockBtn {
+    display: flex;
+}
+
+.contElement h1 {
+    background-color: #c9b7f7;
 }
