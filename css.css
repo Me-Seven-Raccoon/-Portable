@@ -207,3 +207,40 @@
 .contElement h1 {
     background-color: #c9b7f7;
 }
+
+.form1 {
+    width: 555px;
+}
+.form2 {
+    width: 430px;
+}
+.spravkaContain {
+    display: flex;
+    align-items: center;
+}
+.imgSpravka {
+    width: 50px;
+    margin: 10px 5px 10px 0;
+}
+.linkSpr {
+    text-decoration: none;
+    color: crimson;
+}
+
+
+
+/*СПРАВКА*/
+
+.elSpravka {
+   margin-bottom: 30px;
+}
+table {
+    border-radius: 5px;
+    background-color: azure;
+    box-shadow: 0px 0px 43px 6px rgba(13, 52, 204, 0.2);
+}
+td:first-child {
+    background: #d8e7f3;
+    font-size: 17px;
+    font-weight: bold;
+}
