@@ -929,6 +929,10 @@ btnBack16.addEventListener('click', function (e) {
 
 
 
+
+
+
+
 /////////////////  - SPRAVKA
 btnSpr1.addEventListener('click', function (e){
     spr1.classList.toggle('close-quest');
