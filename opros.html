@@ -10,7 +10,7 @@
  <div class="container">
      <div class="question-counter">
          <div class="questionOn">
-             <h1 class="text textOn" >Класс задачи</h1>
+             <h1 class="text textOn" >Выберите класс задачи</h1>
              <div class="blocks">
              <div class="question-button">
                  <label class="rad-label">
@@ -35,7 +35,7 @@
          </div>
 
          <div class="questionTo close-quest">
-             <h1 class="text textOn" >Тип данных</h1>
+             <h1 class="text textOn" >Выберите тип данных</h1>
              <div class="blocks">
              <div class="question-button">
                  <label class="rad-label">
@@ -64,21 +64,33 @@
 
          <div class="questionThe close-quest">
              <h1 class="text textOn" >Характеристика данных</h1>
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest5">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Переменные распределены по нормальному закону</div>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest6">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Ни одно из перечисленного</div>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest7">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Большой диапазон анализируемых значений</div>-->
+<!--                 </label>-->
+<!--             </div>-->
              <div class="question-button">
                  <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest5">
+                     <input type="checkbox" class="rad-input" name="dzen" id="quest5">
                      <div class="rad-design"></div>
-                     <div class="rad-text">Переменные распределены по нормальному закону</div>
+                     <div class="rad-text">Нормальный закон(распределение)</div>
                  </label>
                  <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest6">
+                     <input type="checkbox" class="rad-input" name="dzen" id="quest6">
                      <div class="rad-design"></div>
-                     <div class="rad-text">Ни одно из перечисленного</div>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest7">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Большой диапазон анализируемых значений</div>
+                     <div class="rad-text">Разница между анализируемыми значениями примерно постоянна</div>
                  </label>
              </div>
              <div class="blockBtn">
@@ -89,17 +101,17 @@
          </div>
 
          <div class="questionFo close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
+             <h1 class="text textOn" >Разница между анализируемыми значениями примерно постоянна?</h1>
              <div class="question-button">
                  <label class="rad-label">
                      <input type="radio" class="rad-input" name="dzen" id="quest8">
                      <div class="rad-design"></div>
-                     <div class="rad-text">Большой диапазон анализируемых значений</div>
+                     <div class="rad-text">Да</div>
                  </label>
                  <label class="rad-label">
                  <input type="radio" class="rad-input" name="dzen" id="quest9">
                      <div class="rad-design"></div>
-                     <div class="rad-text">Нет подходящего</div>
+                     <div class="rad-text">Нет</div>
                  </label>
              </div>
              <div class="blockBtn">
@@ -110,7 +122,7 @@
          </div>
 
          <div class="questionFive close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
+             <h1 class="text textOn" >Выберите типа выборки</h1>
              <div class="blocks">
              <div class="question-button">
                  <label class="rad-label">
@@ -137,80 +149,92 @@
              </div>
          </div>
 
-         <div class="questionSix close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
+         <div class="question6 close-quest">
+             <h1 class="text textOn" >Количество сравниваемых групп</h1>
              <div class="blocks">
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest12">
-                     <div class="rad-design"></div>
-                     <div class="rad-text"><img class="form1" src="form2.png"></div>
-                     <button class="btnSpr7">?</button>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input"  name="dzen" id="quest13">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Не требуется высоких мощностей</div>
-                 </label>
+                 <div class="question-button">
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input" name="dzen" id="quest12">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Две</div>
+<!--                         <button class="btnSpr5">?</button>-->
+                     </label>
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input"  name="dzen" id="quest13">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Три и более</div>
+<!--                         <button class="btnSpr6">?</button>-->
+                     </label>
+                 </div>
+                 <div class="spravka">
+<!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+<!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
-             <div class="spravka">
-                 <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>
-             </div>
-             </div>
-                <div class="blockBtn">
+             <div class="blockBtn">
                  <a class="btn6 btnStyle btnStyle1">Выбрать</a>
                  <a class="btn-back-5 btnStyle btnStyle1 btnStyleNon">назад</a>
              </div>
          </div>
 
          <div class="question7 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
+             <h1 class="text textOn" >Укажите количество сравниваемых групп</h1>
              <div class="blocks">
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest14">
-                     <div class="rad-design"></div>
-                     <div class="rad-text"><img class="form2" src="form3.png"></div>
-                     <button class="btnSpr8">?</button>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input"  name="dzen" id="quest15">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Размер выборки не более 20 наблюдателей</div>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input"  name="dzen" id="quest16">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Малые выборки. А каждой из выборок не менее 3 значений признака. Или в одной выборке 2 значения, но во второй выборке не менее пяти </div>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input"  name="dzen" id="quest17">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Размер выборок более 50 наблюдений (желательно)</div>
-                 </label>
+                 <div class="question-button">
+                     <div class="blockF">
+                     <label>
+                        <input type="number" class="valform1"> Введите число
+                     </label>
+                         <button class="rej1">Проверить</button>
+                         <p class="rejIT1"></p>
+                     </div>
+
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input" name="dzen" id="quest14">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Число наблюдений не менее 6</div>
+                         <!--                         <button class="btnSpr5">?</button>-->
+                     </label>
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest15">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Число различных значений переменной на менее 5</div>
+                         <!--                         <button class="btnSpr6">?</button>-->
+                     </label>
+                 </div>
+                 <div class="spravka">
+                     <!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+                     <!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
-             <div class="spravka">
-                 <p class="spr8 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!dsdsds
-                     lore2dsfsdfdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd
-                     lore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd
-                     lore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd
-                     lore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd</p>
-             </div>
-             </div>
-                <div class="blockBtn">
+             <div class="blockBtn">
                  <a class="btn7 btnStyle btnStyle1">Выбрать</a>
                  <a class="btn-back-6 btnStyle btnStyle1 btnStyleNon">назад</a>
              </div>
          </div>
 
          <div class="question8 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest18">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Переменные выборки будут распределены по нормальному закону</div>
-                 </label>
+                          <h1 class="text textOn" >Укажите количество сравниваемых групп</h1>
+             <div class="blocks">
+                 <div class="question-button">
+
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input" name="dzen" id="quest16">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Две</div>
+                         <!--                         <button class="btnSpr5">?</button>-->
+                     </label>
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input"  name="dzen" id="quest17">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Три и более</div>
+                         <!--                         <button class="btnSpr6">?</button>-->
+                     </label>
+                 </div>
+                 <div class="spravka">
+                     <!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+                     <!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
              <div class="blockBtn">
                  <a class="btn8 btnStyle btnStyle1">Выбрать</a>
@@ -219,34 +243,100 @@
          </div>
 
          <div class="question9 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
+<!--             <h1 class="text textOn" >FORMULA</h1>-->
              <div class="blocks">
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest19">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Дисперсии переменных (выборок) должны совпадать. Для проверки равенства дисперсии рекомендуется использовать критерии Левина, либо критерии Брауна-Форсайта </div>
-                     <button class="btnSpr9">?</button>
-                 </label>
+                 <div class="question-button">
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input" name="dzen" id="quest18">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Переменная распределена по нормальному закону</div>
+                     </label>
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest19">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Дисперсии сравниваемых выборок совпадают</div>
+                     </label>
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input" name="dzen" id="quest20">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Расчёт по формуле минимальной размерности выборки и проверка числа наблюдений(автоматически)</div>
+                     </label>
+                     <div class="blockF2">
+                         <label>
+                             <input type="number" class="valform21"> Введите количество наблюдений в первой выборке (n1)
+                         </label>
+                         <label>
+                             <input type="number" class="valform22"> Введите количество наблюдений во второй выборке (n2)
+                         </label>
+                         <label>
+                             <input type="number" class="valform23"> Введите среднее значение первой выборки x1
+                         </label>
+                         <label>
+                             <input type="number" class="valform24"> Введите среднее значение второй выборки x2
+                         </label>
+                         <label>
+                             <input type="number" class="valform25">  Введите дисперсию первой выборки S1
+                         </label>
+                         <label>
+                             <input type="number" class="valform26"> Введите дисперсию второй выборки S2
+                         </label>
+                         <button class="rej2">Проверить</button>
+                         <p class="rejIT2"></p>
+                     </div>
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest21">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">В сравниваемых выборках отсутствуют одинаковые значения либо их мало</div>
+                     </label>
+                     <label class="rad-label" style="display: none">
+                         <input type="checkbox" class="rad-input" name="dzen" id="quest22">
+                         <div class="rad-design"></div>
+                         <div class="rad-text" >Введённый пользователем размер выборок менее 20</div>
+                     </label>
+                     <label class="rad-label" style="display: none">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest23">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Размеры выборок более 50</div>
+                     </label>
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest24">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Переменные принимают не менее 3 различных значений, либо одна - 2 разных значения, а вторая не менее 5</div>
+                     </label>
+                 </div>
+                 <div class="spravka">
+                     <!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+                     <!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
-             <div class="spravka">
-                 <p class="spr9 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>
-             </div>
-             </div>
-                <div class="blockBtn">
+             <div class="blockBtn">
                  <a class="btn9 btnStyle btnStyle1">Выбрать</a>
                  <a class="btn-back-8 btnStyle btnStyle1 btnStyleNon">назад</a>
              </div>
          </div>
 
          <div class="question10 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest20">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">В обоих сравнениях выборках нет одинаковых значений (желательно)</div>
-                 </label>
+             <h1 class="text textOn" >Укажите количество сравниваемых групп</h1>
+             <div class="blocks">
+                 <div class="question-button">
+
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input" name="dzen" id="quest25">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Две</div>
+                         <!--                         <button class="btnSpr5">?</button>-->
+                     </label>
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input"  name="dzen" id="quest26">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Три и более</div>
+                         <!--                         <button class="btnSpr6">?</button>-->
+                     </label>
+                 </div>
+                 <div class="spravka">
+                     <!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+                     <!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
              <div class="blockBtn">
                  <a class="btn10 btnStyle btnStyle1">Выбрать</a>
@@ -255,13 +345,27 @@
          </div>
 
          <div class="question11 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest21">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">В выборках нет одинаковых значений либо их очень мало</div>
-                 </label>
+             <h1 class="text textOn" >Укажите количество сравниваемых групп</h1>
+             <div class="blocks">
+                 <div class="question-button">
+
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input" name="dzen" id="quest27">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Две</div>
+                         <!--                         <button class="btnSpr5">?</button>-->
+                     </label>
+                     <label class="rad-label">
+                         <input type="radio" class="rad-input"  name="dzen" id="quest28">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Три и более</div>
+                         <!--                         <button class="btnSpr6">?</button>-->
+                     </label>
+                 </div>
+                 <div class="spravka">
+                     <!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+                     <!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
              <div class="blockBtn">
                  <a class="btn11 btnStyle btnStyle1">Выбрать</a>
@@ -270,13 +374,46 @@
          </div>
 
          <div class="question12 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest22">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Число градаций величин в пределах 7-9(желательно)</div>
-                 </label>
+             <h1 class="text textOn" >Выберите характеристики данных</h1>
+             <div class="blocks">
+                 <div class="question-button">
+
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input" name="dzen" id="quest29">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">В сравниваемых выборках отсутствуют одинаковые значения либо их мало</div>
+                     </label>
+
+                     <div class="blockF2">
+                         <label>
+                             <input type="number" class="valform27">  Введите количество наблюдений в первой выборке (n1)
+                         </label>
+                         <label>
+                             <input type="number" class="valform28"> Введите количество наблюдений во второй выборке (n2)
+                         </label>
+                         <button class="rej3">Проверить</button>
+                         <p class="rejIT3"></p>
+                     </div>
+                     <label class="rad-label" style="display: none">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest30">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">(выбор данного пункта происходит автоматически)20</div>
+                     </label>
+                     <label class="rad-label" style="display: none">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest31">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">(выбор данного пункта происходит автоматически)50</div>
+                     </label>
+                     <label class="rad-label">
+                         <input type="checkbox" class="rad-input"  name="dzen" id="quest32">
+                         <div class="rad-design"></div>
+                         <div class="rad-text">Переменные принимают не менее 3 различных значений, либо одна - 2 разных значения, а вторая не менее 5</div>
+                     </label>
+                 </div>
+                 <div class="spravka">
+                     <!--                     <div class="spr6 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</div>-->
+                     <!--                     <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+                 </div>
              </div>
              <div class="blockBtn">
                  <a class="btn12 btnStyle btnStyle1">Выбрать</a>
@@ -284,94 +421,249 @@
              </div>
          </div>
 
-         <div class="question13 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest23">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Не требуется высоких мощностей</div>
-                 </label>
-             </div>
-             <div class="blockBtn">
-                 <a class="btn13 btnStyle btnStyle1">Выбрать</a>
-                 <a class="btn-back-12 btnStyle btnStyle1 btnStyleNon">назад</a>
-             </div>
-         </div>
 
-         <div class="question14 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest24">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Размер выборки не более 20 наблюдений</div>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest25">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Малые выборки. А каждой из выборок не менее 3 значений признака. Или в одной выборке 2 значения, но во второй выборке не менее пяти</div>
-                 </label>
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest26">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Размер выборок более 50 наблюдений (желательно)</div>
-                 </label>
-             </div>
-             <div class="blockBtn">
-                 <a class="btn14 btnStyle btnStyle1">Выбрать</a>
-                 <a class="btn-back-13 btnStyle btnStyle1 btnStyleNon">назад</a>
-             </div>
-         </div>
 
-         <div class="question15 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest27">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">В обоих сравниваемых выборках нет одинаковых значений(желательно)</div>
-                 </label>
-             </div>
-             <div class="blockBtn">
-                 <a class="btn15 btnStyle btnStyle1">Выбрать</a>
-                 <a class="btn-back-14 btnStyle btnStyle1 btnStyleNon">назад</a>
-             </div>
-         </div>
 
-         <div class="question16 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest28">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">В выборках нет одинаковых значений либо их очень мало</div>
-                 </label>
-             </div>
-             <div class="blockBtn">
-                 <a class="btn16 btnStyle btnStyle1">Выбрать</a>
-                 <a class="btn-back-15 btnStyle btnStyle1 btnStyleNon">назад</a>
-             </div>
-         </div>
+         <!--         ///////////////////////-->
 
-         <div class="question17 close-quest">
-             <h1 class="text textOn" >Характеристика данных</h1>
-             <div class="question-button">
-                 <label class="rad-label">
-                     <input type="radio" class="rad-input" name="dzen" id="quest29">
-                     <div class="rad-design"></div>
-                     <div class="rad-text">Число градаций величин в пределах 7-9(желательно)</div>
-                 </label>
-             </div>
-             <div class="blockBtn">
-                 <a class="btn17 btnStyle btnStyle1">Выбрать</a>
-                 <a class="btn-back-16 btnStyle btnStyle1 btnStyleNon">назад</a>
-             </div>
-         </div>
 
-         <div class="questionItog close-quest">
-             <h1 class="text textOn"></h1>
-         </div>
+
+
+<!--         <div class="questionSix close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="blocks">-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest12">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text"><img class="form1" src="form2.png"></div>-->
+<!--                     <button class="btnSpr7">?</button>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input"  name="dzen" id="quest13">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Не требуется высоких мощностей</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="spravka">-->
+<!--                 <p class="spr7 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+<!--             </div>-->
+<!--             </div>-->
+<!--                <div class="blockBtn">-->
+<!--                 <a class="btn6 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-5 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question7 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="blocks">-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest14">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text"><img class="form2" src="form3.png"></div>-->
+<!--                     <button class="btnSpr8">?</button>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input"  name="dzen" id="quest15">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Размер выборки не более 20 наблюдателей</div>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input"  name="dzen" id="quest16">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Малые выборки. А каждой из выборок не менее 3 значений признака. Или в одной выборке 2 значения, но во второй выборке не менее пяти </div>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input"  name="dzen" id="quest17">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Размер выборок более 50 наблюдений (желательно)</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="spravka">-->
+<!--                 <p class="spr8 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!dsdsds-->
+<!--                     lore2dsfsdfdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd-->
+<!--                     lore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd-->
+<!--                     lore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd-->
+<!--                     lore2dsfsdlore2dsfsdlore2dsfsdlore2dsfsd</p>-->
+<!--             </div>-->
+<!--             </div>-->
+<!--                <div class="blockBtn">-->
+<!--                 <a class="btn7 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-6 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question8 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest18">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Переменные выборки будут распределены по нормальному закону</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn8 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-7 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question9 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="blocks">-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest19">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Дисперсии переменных (выборок) должны совпадать. Для проверки равенства дисперсии рекомендуется использовать критерии Левина, либо критерии Брауна-Форсайта </div>-->
+<!--                     <button class="btnSpr9">?</button>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="spravka">-->
+<!--                 <p class="spr9 close-quest">ЧТО ТО В СПРАВКЕ!!!!!!!!!!!!!</p>-->
+<!--             </div>-->
+<!--             </div>-->
+<!--                <div class="blockBtn">-->
+<!--                 <a class="btn9 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-8 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question10 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest20">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">В обоих сравнениях выборках нет одинаковых значений (желательно)</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn10 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-9 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question11 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest21">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">В выборках нет одинаковых значений либо их очень мало</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn11 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-10 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question12 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest22">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Число градаций величин в пределах 7-9(желательно)</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn12 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-11 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question13 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest23">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Не требуется высоких мощностей</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn13 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-12 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question14 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest24">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Размер выборки не более 20 наблюдений</div>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest25">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Малые выборки. А каждой из выборок не менее 3 значений признака. Или в одной выборке 2 значения, но во второй выборке не менее пяти</div>-->
+<!--                 </label>-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest26">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Размер выборок более 50 наблюдений (желательно)</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn14 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-13 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question15 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest27">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">В обоих сравниваемых выборках нет одинаковых значений(желательно)</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn15 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-14 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question16 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest28">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">В выборках нет одинаковых значений либо их очень мало</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn16 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-15 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="question17 close-quest">-->
+<!--             <h1 class="text textOn" >Характеристика данных</h1>-->
+<!--             <div class="question-button">-->
+<!--                 <label class="rad-label">-->
+<!--                     <input type="radio" class="rad-input" name="dzen" id="quest29">-->
+<!--                     <div class="rad-design"></div>-->
+<!--                     <div class="rad-text">Число градаций величин в пределах 7-9(желательно)</div>-->
+<!--                 </label>-->
+<!--             </div>-->
+<!--             <div class="blockBtn">-->
+<!--                 <a class="btn17 btnStyle btnStyle1">Выбрать</a>-->
+<!--                 <a class="btn-back-16 btnStyle btnStyle1 btnStyleNon">назад</a>-->
+<!--             </div>-->
+<!--         </div>-->
+
+<!--         <div class="questionItog close-quest">-->
+<!--             <h1 class="text textOn"></h1>-->
+<!--         </div>-->
      </div>
  </div>
 <a href="index.html" class="homeLink">

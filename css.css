@@ -244,3 +244,23 @@ td:first-child {
     font-size: 17px;
     font-weight: bold;
 }
+
+
+/*FORMULA*/
+.blockF {
+    display: flex;
+    align-items: center;
+}
+.blockF p {
+    padding: 0;
+    margin: 0 0 0 12px;
+}
+
+.blockF2 {
+    display: flex;
+    flex-direction: column;
+}
+.blockF2 button {
+    width: 100px;
+    margin: 10px 0 0 0;
+}
