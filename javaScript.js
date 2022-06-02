@@ -156,21 +156,23 @@ const btnBack11 = document.querySelector('.btn-back-11')
 
 
 
-// const spr1 = document.querySelector('.spr1')
-// const btnSpr1 = document.querySelector('.btnSpr1')
-// const spr2 = document.querySelector('.spr2')
-// const btnSpr2 = document.querySelector('.btnSpr2')
-// const spr3 = document.querySelector('.spr3')
-// const btnSpr3 = document.querySelector('.btnSpr3')
-//
-// const spr4 = document.querySelector('.spr4')
-// const btnSpr4 = document.querySelector('.btnSpr4')
-//
-// const spr5 = document.querySelector('.spr5')
-// const btnSpr5 = document.querySelector('.btnSpr5')
-//
-// const spr6 = document.querySelector('.spr6')
-// const btnSpr6 = document.querySelector('.btnSpr6')
+const spr1 = document.querySelector('.spr1')
+const btnSpr1 = document.querySelector('.btnSpr1')
+
+const spr2 = document.querySelector('.spr2')
+const btnSpr2 = document.querySelector('.btnSpr2')
+
+const spr3 = document.querySelector('.spr3')
+const btnSpr3 = document.querySelector('.btnSpr3')
+
+const spr4 = document.querySelector('.spr4')
+const btnSpr4 = document.querySelector('.btnSpr4')
+
+const spr5 = document.querySelector('.spr5')
+const btnSpr5 = document.querySelector('.btnSpr5')
+
+const spr6 = document.querySelector('.spr6')
+const btnSpr6 = document.querySelector('.btnSpr6')
 //
 // const spr7 = document.querySelector('.spr7')
 // const btnSpr7 = document.querySelector('.btnSpr7')
@@ -1828,26 +1830,26 @@ btnBack11.addEventListener('click', function (e) {
 //
 //
 // /////////////////  - SPRAVKA
-// btnSpr1.addEventListener('click', function (e){
-//     spr1.classList.toggle('close-quest');
-// })
-// btnSpr2.addEventListener('click', function (e){
-//     spr2.classList.toggle('close-quest');
-// })
+btnSpr1.addEventListener('click', function (e){
+    spr1.classList.toggle('close-quest');
+})
+btnSpr2.addEventListener('click', function (e){
+    spr2.classList.toggle('close-quest');
+})
 //
-// btnSpr3.addEventListener('click', function (e){
-//     spr3.classList.toggle('close-quest');
-// })
-// btnSpr4.addEventListener('click', function (e){
-//     spr4.classList.toggle('close-quest');
-// })
-//
-// btnSpr5.addEventListener('click', function (e){
-//     spr5.classList.toggle('close-quest');
-// })
-// btnSpr6.addEventListener('click', function (e){
-//     spr6.classList.toggle('close-quest');
-// })
+btnSpr3.addEventListener('click', function (e){
+    spr3.classList.toggle('close-quest');
+})
+btnSpr4.addEventListener('click', function (e){
+    spr4.classList.toggle('close-quest');
+})
+
+btnSpr5.addEventListener('click', function (e){
+    spr5.classList.toggle('close-quest');
+})
+btnSpr6.addEventListener('click', function (e){
+    spr6.classList.toggle('close-quest');
+})
 //
 // btnSpr7.addEventListener('click', function (e){
 //     spr7.classList.toggle('close-quest');
