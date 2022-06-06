@@ -1913,7 +1913,6 @@ rej2.addEventListener('click', function (e){
         quest23.checked = false
         rejIT2.innerHTML = 'Данный пункт не подходит'
     }
-
 })
 
 rej3.addEventListener('click', function (e){
