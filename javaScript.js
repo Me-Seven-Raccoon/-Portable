@@ -849,7 +849,7 @@ btn9.addEventListener('click', function (e){
             containerSpravka.appendChild(linkSpravka)
 
             const text2 = document.createElement('p');
-            text2.textContent = `Критерий Колмогорова Смирнова (напараметрический)`
+            text2.textContent = `Критерий Колмогорова Смирнова (непараметрический)`
             const text1 = document.createElement('p');
             text1.textContent = `Критерий Манна-Уитни`
             contElement.appendChild(text2)
@@ -879,7 +879,7 @@ btn9.addEventListener('click', function (e){
             containerSpravka.appendChild(linkSpravka)
 
             const text2 = document.createElement('p');
-            text2.textContent = `Критерий Колмогорова Смирнова (напараметрический)`
+            text2.textContent = `Критерий Колмогорова Смирнова (непараметрический)`
             contElement.appendChild(text2)
             contElement.appendChild(containerSpravka)
             block.appendChild(contElement)
@@ -1164,7 +1164,7 @@ btn12.addEventListener('click', function (e){
             containerSpravka.appendChild(linkSpravka)
 
             const text2 = document.createElement('p');
-            text2.textContent = `Критерий Колмогорова Смирнова (напараметрический)`
+            text2.textContent = `Критерий Колмогорова Смирнова (непараметрический)`
             const text1 = document.createElement('p');
             text1.textContent = `Критерий Манна-Уитни`
             contElement.appendChild(text2)
@@ -1192,7 +1192,7 @@ btn12.addEventListener('click', function (e){
             containerSpravka.appendChild(linkSpravka)
 
             const text2 = document.createElement('p');
-            text2.textContent = `Критерий Колмогорова Смирнова (напараметрический)`
+            text2.textContent = `Критерий Колмогорова Смирнова (непараметрический)`
             contElement.appendChild(text2)
             contElement.appendChild(containerSpravka)
             block.appendChild(contElement)
@@ -1217,7 +1217,7 @@ btn12.addEventListener('click', function (e){
             containerSpravka.appendChild(linkSpravka)
 
             const text2 = document.createElement('p');
-            text2.textContent = `Критерий Колмогорова Смирнова (напараметрический)`
+            text2.textContent = `Критерий Колмогорова Смирнова (непараметрический)`
             contElement.appendChild(text2)
             contElement.appendChild(containerSpravka)
             block.appendChild(contElement)
@@ -1866,13 +1866,13 @@ btnSpr6.addEventListener('click', function (e){
 rej1.addEventListener('click', function (e){
     if (valform1.value >= 6){
         quest14.checked = true;
-        rejIT1.innerHTML = 'верно'
+        rejIT1.innerHTML = 'Данные учтены'
         setTimeout(function (){
             rejIT1.innerHTML = ''
         }, 3000)
     } else {
         quest14.checked = false;
-        rejIT1.innerHTML = 'не верно'
+        rejIT1.innerHTML = 'Данные учтены'
         setTimeout(function (){
             rejIT1.innerHTML = ''
         }, 3000)
@@ -1897,7 +1897,7 @@ rej2.addEventListener('click', function (e){
         quest20.checked = true
     } else  {
         quest20.checked = false
-        rejIT2.innerHTML = 'Данный пункт не подходит'
+        rejIT2.innerHTML = 'Данные учтены'
         setTimeout(function (){
             rejIT2.innerHTML = ''
         }, 3000)
@@ -1911,7 +1911,7 @@ rej2.addEventListener('click', function (e){
         quest23.checked = true
     } else {
         quest23.checked = false
-        rejIT2.innerHTML = 'Данный пункт не подходит'
+        rejIT2.innerHTML = 'Данные учтены'
     }
 })
 
@@ -1926,6 +1926,10 @@ rej3.addEventListener('click', function (e){
     } else {
         quest31.checked = false;
     }
+    rejIT3.innerHTML = 'Данные учтены'
+    setTimeout(function (){
+        rejIT3.innerHTML = ''
+    }, 3000)
 })
 
 
